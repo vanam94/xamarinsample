@@ -16,5 +16,11 @@ namespace sample
         {
             InitializeComponent();
         }
+
+        private void interactionButton_Clicked(object sender, EventArgs e)
+        {
+            int result = (int)firstNumberEntry.Text / (int)secondNumberEntry.Text;
+            resultLabel.Text = result;
+        }
     }
 }

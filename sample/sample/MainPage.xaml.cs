@@ -18,5 +18,8 @@ namespace sample
         {
             Navigation.PushAsync(new Page1());
         }
+        
+
+        }
     }
 }
