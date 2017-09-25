@@ -15,12 +15,14 @@ namespace sample
         public Page1()
         {
             InitializeComponent();
+
         }
 
         private void interactionButton_Clicked(object sender, EventArgs e)
         {
-            int result = (int)firstNumberEntry.Text / (int)secondNumberEntry.Text;
-            resultLabel.Text = result;
+            int result = Convert.ToInt32(firstNumberEntry.Text) + Convert.ToInt32(secondNumberEntry.Text);
+            resultLabel.Text = result.ToString();
+
         }
     }
 }

@@ -5,13 +5,14 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Enter your numbers and click the button" />
-            <Entry x:Name=" firstNumberEntry" Placeholder="Enter your firstnumber"/>
-            <Entry x:Name=" secondNumberEntry" Placeholder="Enter your secondnumber"/>
+            <Entry x:Name="firstNumberEntry" Placeholder="Enter your firstnumber"/>
+            <Entry x:Name="secondNumberEntry" Placeholder="Enter your secondnumber"/>
             <Button x:Name="interactionButton"
-          Text="Divide these number"
+          Text="Add these number"
           Clicked="interactionButton_Clicked"/>
-            
+
             <Label x:Name="resultLabel" Text=""/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
