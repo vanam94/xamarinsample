@@ -8,7 +8,13 @@
                   Placeholder="Enter an item"/>
             <Button x:Name="addItemButton"
                     Text="add Item"
-                    Clicked="addItemButton_Clicked_1"/>
+                    Clicked="addItemButton_Clicked"/>
+            <Button x:Name="clearButton"
+                    Text="clear List"
+                    Clicked="clearButton_Clicked"/>
+            <Button x:Name="returnButton"
+                    Text="return"
+                    Clicked="returnButton_Clicked"/>
             <ListView x:Name="todoList"/>
 
         </StackLayout>

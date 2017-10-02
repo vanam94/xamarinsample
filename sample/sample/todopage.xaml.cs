@@ -34,10 +34,16 @@ namespace sample
             }
          }
 
-        private void addItemButton_Clicked_1(object sender, EventArgs e)
+       
+        private void clearButton_Clicked(object sender, EventArgs e)
         {
             this.todoItems.Clear();
             todoList.ItemsSource = new List<string>();
+        }
+
+        private void returnButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
         }
     }
 
